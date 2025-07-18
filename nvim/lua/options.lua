@@ -1,9 +1,12 @@
 require "nvchad.options"
 
 local o = vim.o
-o.tabstop = 4
-o.shiftwidth = 4
-o.softtabstop = 4
+
+local stop_size = 2
+o.tabstop = stop_size
+o.shiftwidth = stop_size
+o.softtabstop = stop_size
 o.relativenumber = true
 o.expandtab = true
-o.cursorlineopt ='both'
+
+-- o.cursorlineopt ='both'
